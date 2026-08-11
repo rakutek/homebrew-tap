@@ -1,8 +1,8 @@
 class Wtx < Formula
-  desc "One Lima microVM with a dedicated dockerd per git worktree"
+  desc "Per-worktree microVMs with isolated Docker runtimes for parallel coding agents"
   homepage "https://github.com/rakutek/wtx"
-  url "https://github.com/rakutek/wtx/releases/download/v0.8.0/wtx-0.8.0-aarch64-apple-darwin.tar.gz"
-  sha256 "d607fdf376aa3fd2af46ea053a367699aeb3876f03cf8fabe31eedd1471f48bc"
+  url "https://github.com/rakutek/wtx/releases/download/v0.9.0/wtx-0.9.0-aarch64-apple-darwin.tar.gz"
+  sha256 "cf1e64048109cae2b8745872ce2166e84bbea452e0b1ff90b748bd8108647cce"
   license any_of: ["MIT", "Apache-2.0"]
 
   depends_on "lima"
