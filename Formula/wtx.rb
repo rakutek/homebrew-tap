@@ -1,8 +1,8 @@
 class Wtx < Formula
   desc "Per-worktree microVMs with isolated Docker runtimes for parallel coding agents"
   homepage "https://github.com/rakutek/wtx"
-  url "https://github.com/rakutek/wtx/releases/download/v0.10.0/wtx-0.10.0-aarch64-apple-darwin.tar.gz"
-  sha256 "51a23e78d37197d76127c73893e0b15951e7e5b111c39242563b6b7e9f33692f"
+  url "https://github.com/rakutek/wtx/releases/download/v0.11.0/wtx-0.11.0-aarch64-apple-darwin.tar.gz"
+  sha256 "e3edf9f706cdd8c7c2461f5371e204666d666e5754d4f7af787cce66cf87d495"
   license any_of: ["MIT", "Apache-2.0"]
 
   depends_on "lima"
